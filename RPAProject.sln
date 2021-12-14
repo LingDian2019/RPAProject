@@ -3,17 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.科箭供应商导入通天晓", "1.科箭供应商导入通天晓", "{50411DC7-72B4-4383-87FF-97F80FBA1AE7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1：打开网页自动截图", "1：打开网页自动截图", "{ED7472DF-4DC0-4FF8-A20A-A835E3D3B47E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1：打开百度自动截图", "1：打开百度自动截图", "{ED7472DF-4DC0-4FF8-A20A-A835E3D3B47E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPAScreenshot", "src\RPAScreenshot\RPAScreenshot.csproj", "{CF56B7AF-DCE0-434A-A9E5-0B2614E111A1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KJToTTXSupplierImport", "src\KJToTTXSupplierImport\KJToTTXSupplierImport.csproj", "{4A89FCB4-5345-4B50-8A69-B155856B1D2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPAProjectPackages", "src\RPAProjectPackages\RPAProjectPackages.csproj", "{6C1877E1-0875-4760-A7C4-59386D0FC1EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPAScreenshot", "src\RPAScreenshot\RPAScreenshot.csproj", "{CF56B7AF-DCE0-434A-A9E5-0B2614E111A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPAProjectTool", "src\RPAProjectTool\RPAProjectTool.csproj", "{9106EDE4-04EE-4FD8-872F-F26C2BAAD1D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPAProjectPackages", "src\RPAProjectPackages\RPAProjectPackages.csproj", "{6C1877E1-0875-4760-A7C4-59386D0FC1EB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2：打开百度并进行搜索", "2：打开百度并进行搜索", "{1671F4DB-CA57-4865-8512-0B863765058E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPAProjectTool", "src\RPAProjectTool\RPAProjectTool.csproj", "{9106EDE4-04EE-4FD8-872F-F26C2BAAD1D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPASearch", "src\RPASearch\RPASearch.csproj", "{CE5EC0F2-BB05-4B93-8C88-66DFF4002650}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3：获取关键字然后在百度搜索", "3：获取关键字然后在百度搜索", "{87F48D11-282B-4880-A393-903429EA00D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPAGetKeyToSearch", "src\RPAGetKeyToSearch\RPAGetKeyToSearch.csproj", "{412D648B-7157-4ED7-ADB3-BA854C20E508}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +25,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4A89FCB4-5345-4B50-8A69-B155856B1D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4A89FCB4-5345-4B50-8A69-B155856B1D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4A89FCB4-5345-4B50-8A69-B155856B1D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4A89FCB4-5345-4B50-8A69-B155856B1D2A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CF56B7AF-DCE0-434A-A9E5-0B2614E111A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CF56B7AF-DCE0-434A-A9E5-0B2614E111A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF56B7AF-DCE0-434A-A9E5-0B2614E111A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,13 +37,22 @@ Global
 		{9106EDE4-04EE-4FD8-872F-F26C2BAAD1D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9106EDE4-04EE-4FD8-872F-F26C2BAAD1D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9106EDE4-04EE-4FD8-872F-F26C2BAAD1D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE5EC0F2-BB05-4B93-8C88-66DFF4002650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE5EC0F2-BB05-4B93-8C88-66DFF4002650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE5EC0F2-BB05-4B93-8C88-66DFF4002650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE5EC0F2-BB05-4B93-8C88-66DFF4002650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{412D648B-7157-4ED7-ADB3-BA854C20E508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{412D648B-7157-4ED7-ADB3-BA854C20E508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{412D648B-7157-4ED7-ADB3-BA854C20E508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{412D648B-7157-4ED7-ADB3-BA854C20E508}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{4A89FCB4-5345-4B50-8A69-B155856B1D2A} = {50411DC7-72B4-4383-87FF-97F80FBA1AE7}
 		{CF56B7AF-DCE0-434A-A9E5-0B2614E111A1} = {ED7472DF-4DC0-4FF8-A20A-A835E3D3B47E}
+		{CE5EC0F2-BB05-4B93-8C88-66DFF4002650} = {1671F4DB-CA57-4865-8512-0B863765058E}
+		{412D648B-7157-4ED7-ADB3-BA854C20E508} = {87F48D11-282B-4880-A393-903429EA00D4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2937AD56-3E29-4190-942F-54D1551B24F7}
