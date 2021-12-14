@@ -5,9 +5,15 @@ VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.科箭供应商导入通天晓", "1.科箭供应商导入通天晓", "{50411DC7-72B4-4383-87FF-97F80FBA1AE7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1", "1", "{ED7472DF-4DC0-4FF8-A20A-A835E3D3B47E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1：打开百度自动截图", "1：打开百度自动截图", "{ED7472DF-4DC0-4FF8-A20A-A835E3D3B47E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KJToTTXSupplierImport", "src\KJToTTXSupplierImport\KJToTTXSupplierImport.csproj", "{4A89FCB4-5345-4B50-8A69-B155856B1D2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KJToTTXSupplierImport", "src\KJToTTXSupplierImport\KJToTTXSupplierImport.csproj", "{4A89FCB4-5345-4B50-8A69-B155856B1D2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPAScreenshot", "src\RPAScreenshot\RPAScreenshot.csproj", "{CF56B7AF-DCE0-434A-A9E5-0B2614E111A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPAProjectPackages", "src\RPAProjectPackages\RPAProjectPackages.csproj", "{6C1877E1-0875-4760-A7C4-59386D0FC1EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPAProjectTool", "src\RPAProjectTool\RPAProjectTool.csproj", "{9106EDE4-04EE-4FD8-872F-F26C2BAAD1D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,12 +25,25 @@ Global
 		{4A89FCB4-5345-4B50-8A69-B155856B1D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A89FCB4-5345-4B50-8A69-B155856B1D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A89FCB4-5345-4B50-8A69-B155856B1D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF56B7AF-DCE0-434A-A9E5-0B2614E111A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF56B7AF-DCE0-434A-A9E5-0B2614E111A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF56B7AF-DCE0-434A-A9E5-0B2614E111A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF56B7AF-DCE0-434A-A9E5-0B2614E111A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C1877E1-0875-4760-A7C4-59386D0FC1EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C1877E1-0875-4760-A7C4-59386D0FC1EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C1877E1-0875-4760-A7C4-59386D0FC1EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C1877E1-0875-4760-A7C4-59386D0FC1EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9106EDE4-04EE-4FD8-872F-F26C2BAAD1D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9106EDE4-04EE-4FD8-872F-F26C2BAAD1D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9106EDE4-04EE-4FD8-872F-F26C2BAAD1D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9106EDE4-04EE-4FD8-872F-F26C2BAAD1D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4A89FCB4-5345-4B50-8A69-B155856B1D2A} = {50411DC7-72B4-4383-87FF-97F80FBA1AE7}
+		{CF56B7AF-DCE0-434A-A9E5-0B2614E111A1} = {ED7472DF-4DC0-4FF8-A20A-A835E3D3B47E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2937AD56-3E29-4190-942F-54D1551B24F7}
