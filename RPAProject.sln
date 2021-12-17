@@ -17,15 +17,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPASearch", "src\RPASearch\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3：获取关键字然后在百度搜索", "3：获取关键字然后在百度搜索", "{87F48D11-282B-4880-A393-903429EA00D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPAGetKeyToSearch", "src\RPAGetKeyToSearch\RPAGetKeyToSearch.csproj", "{412D648B-7157-4ED7-ADB3-BA854C20E508}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPAGetKeyToSearch", "src\RPAGetKeyToSearch\RPAGetKeyToSearch.csproj", "{412D648B-7157-4ED7-ADB3-BA854C20E508}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4：下载文件", "4：下载文件", "{99ACD082-27D4-449E-8C6A-C7F85A71AC81}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5：上传文件", "5：上传文件", "{7FA77CD5-A640-4088-8E29-24829E88000C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPADownload", "src\RPADownload\RPADownload.csproj", "{208EA283-8FCC-4C47-AB97-662EF4A2CF05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPADownload", "src\RPADownload\RPADownload.csproj", "{208EA283-8FCC-4C47-AB97-662EF4A2CF05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPAUploading", "src\RPAUploading\RPAUploading.csproj", "{16574E3E-2CF1-4D03-BA71-3C5FABB921E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPAUploading", "src\RPAUploading\RPAUploading.csproj", "{16574E3E-2CF1-4D03-BA71-3C5FABB921E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "src\ConsoleApp1\ConsoleApp1.csproj", "{565D13BC-9083-45D5-872A-D042F6A565BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,10 @@ Global
 		{16574E3E-2CF1-4D03-BA71-3C5FABB921E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16574E3E-2CF1-4D03-BA71-3C5FABB921E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16574E3E-2CF1-4D03-BA71-3C5FABB921E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{565D13BC-9083-45D5-872A-D042F6A565BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{565D13BC-9083-45D5-872A-D042F6A565BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{565D13BC-9083-45D5-872A-D042F6A565BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{565D13BC-9083-45D5-872A-D042F6A565BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
