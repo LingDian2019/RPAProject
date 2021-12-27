@@ -27,8 +27,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPADownload", "src\RPADownl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPAUploading", "src\RPAUploading\RPAUploading.csproj", "{16574E3E-2CF1-4D03-BA71-3C5FABB921E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "src\ConsoleApp1\ConsoleApp1.csproj", "{565D13BC-9083-45D5-872A-D042F6A565BB}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,10 +61,6 @@ Global
 		{16574E3E-2CF1-4D03-BA71-3C5FABB921E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16574E3E-2CF1-4D03-BA71-3C5FABB921E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16574E3E-2CF1-4D03-BA71-3C5FABB921E9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{565D13BC-9083-45D5-872A-D042F6A565BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{565D13BC-9083-45D5-872A-D042F6A565BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{565D13BC-9083-45D5-872A-D042F6A565BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{565D13BC-9083-45D5-872A-D042F6A565BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
